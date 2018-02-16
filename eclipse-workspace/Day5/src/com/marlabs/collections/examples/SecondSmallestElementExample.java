@@ -10,7 +10,7 @@ public class SecondSmallestElementExample
 	//sort
 	//get second smallest element
 	SortedSet<Integer> intElementSet = new TreeSet<Integer>();
-	for (int i :inputArray)
+	for (int i :inputArray) //For each loop JDK 1.5 version updation
 	{
 		intElementSet.add(i);
 	}
